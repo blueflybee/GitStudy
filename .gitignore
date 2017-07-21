@@ -1,6 +1,10 @@
+.DS_Store
+
+/captures
+.externalNativeBuild
+### Android template
 # Built application files
 *.apk
-*.ap_
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -14,8 +18,9 @@ gen/
 out/
 
 # Gradle files
-.gradle/
-build/
+.gradle
+build
+gradle.properties
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -35,14 +40,13 @@ captures/
 # Intellij
 *.iml
 .idea
-gradle.properties
-
+.idea/tasks.xml
+.idea/dictionaries
 
 # Keystore files
 *.jks
 
 # External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
@@ -51,3 +55,4 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
